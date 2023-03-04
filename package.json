@@ -34,9 +34,7 @@
     "tailwindcss": "^3.2.7"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "yarn lint",
-      "yarn format"
-    ]
+    "*.{ts,tsx,css,scss,md}": "yarn format --write .",
+    "*.{ts,tsx}": "yarn lint . --fix --max-warnings=0"
   }
 }
