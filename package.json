@@ -35,7 +35,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx,css,scss,md}": [
-      "eslint --fix",
+      "yarn lint",
       "prettier --write",
       "git add"
     ]
