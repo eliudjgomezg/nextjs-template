@@ -1,10 +1,7 @@
 import React from 'react'
 
 const Footer = () => {
-  // console.log('hola mundo')
-  const foo = 'Hola Mundo'
-
-  return <div>Footer</div>
+  return <div className="text-red-400">Footer</div>
 }
 
 export default Footer
