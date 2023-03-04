@@ -37,8 +37,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx,css,scss,md}": [
-      "eslint --fix",
-      "prettier --write",
+      "yarn run lint",
+      "yarn run format --write",
       "git add"
     ]
   }
