@@ -6,7 +6,7 @@
       "error",
       {
         "groups": ["builtin", "external", "internal"],
-          "pathGroups": [
+        "pathGroups": [
           {
             "pattern": "{react,next/**,next}",
             "group": "builtin"
