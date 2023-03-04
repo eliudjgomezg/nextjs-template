@@ -23,6 +23,7 @@
     "typescript": "4.9.5"
   },
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
     "autoprefixer": "^10.4.13",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
@@ -36,7 +37,7 @@
   },
   "lint-staged": {
     "*.{ts,tsx,css,scss,md}": [
-      "yarn lint-staged",
+      "eslint --fix",
       "prettier --write",
       "git add"
     ]
